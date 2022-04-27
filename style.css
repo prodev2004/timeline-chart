@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: #eaeaea;
+}
+
+/* SUBSCRIBE ==> https://www.youtube.com/channel/UCzWS-AiirxpTDq_AGSg9Fhg */
+/* JOIN FACEBOOK GROUP ==> https://www.facebook.com/groups/html.css.javascript.alb */
+
+/* SUBSCRIBE ==> https://www.youtube.com/channel/UCzWS-AiirxpTDq_AGSg9Fhg */
+/* JOIN FACEBOOK GROUP ==> https://www.facebook.com/groups/html.css.javascript.alb */
+.container::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 3px ;
+    height: 180vh;
+    background-color: #ff1e26;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10rem;
+}
+.single {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10rem;
+    margin-top: 8rem;
+}
+.card {
+    flex-basis: 50%;
+    padding: 1rem 5rem 1rem 2rem;
+    background-color: #ff1e26;
+    color: #eaeaea;
+    border-radius: .5rem;
+    position: relative;
+}
+.right .card {
+    padding: 1rem 2rem 1rem 5rem;
+}
+.card h2 {
+    color: #fff;
+    text-shadow: 0 0 .5rem rgba(255, 255, 255, .7);
+}
+.date { flex-basis: 50%; }
+.card i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 2px solid #fff;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 1.3rem;
+}
+.left .card i { right: 25px; }
+
+.card i .line {
+    position: absolute;
+    width: 27px;
+    height: 2px;
+    background-color: #eaeaea;
+    right: 0;
+    transform: translateX(100%);
+}
+.card i::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #eaeaea;
+    border: 2px solid #ff1e26;
+    border-radius: 50%;
+}
+.left .card i::after {
+    transform: translateX(100%);
+    left: 111px;
+}
+.card::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translate(100%, -50%);
+    width: 80px;
+    height: 2px;
+    background-color: #ff1e26;
+    right: 0;
+}
+.date {
+    color: #ff1e26;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-right: 25px;
+}
+
+.right .card {
+    text-align: right;
+}
+.right .card i {
+    left: 25px;
+}
+.right .card i .line {
+    left: 0;
+    transform: translateX(-100%);
+}
+.right .card i::after {
+    transform: translateX(-100%);
+    right: 111px;
+}
+.right .card::before {
+    transform: translate(-100%, -50%);
+    left: 0;
+}
+.right .date { text-align: right; }
+
+/* SUBSCRIBE ==> https://www.youtube.com/channel/UCzWS-AiirxpTDq_AGSg9Fhg */
+/* JOIN FACEBOOK GROUP ==> https://www.facebook.com/groups/html.css.javascript.alb */
+
+/* SUBSCRIBE ==> https://www.youtube.com/channel/UCzWS-AiirxpTDq_AGSg9Fhg */
+/* JOIN FACEBOOK GROUP ==> https://www.facebook.com/groups/html.css.javascript.alb */
